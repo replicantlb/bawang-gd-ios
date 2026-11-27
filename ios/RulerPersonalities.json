@@ -1,0 +1,425 @@
+{
+  "format": 1,
+  "presets": {
+    "2": {
+      "name": "曹操",
+      "primary": "进取",
+      "secondary": "谋略",
+      "preference": "连接领土、集中兵力、先削后攻",
+      "focus": "connect"
+    },
+    "46": {
+      "name": "刘备",
+      "primary": "重才",
+      "secondary": "进取",
+      "preference": "招揽营救人才、站稳后争取发展空间",
+      "focus": "talent"
+    },
+    "65": {
+      "name": "孙坚",
+      "primary": "好战",
+      "secondary": "进取",
+      "preference": "强将集中、争夺关键据点",
+      "focus": "decisive"
+    },
+    "64": {
+      "name": "孙策",
+      "primary": "进取",
+      "secondary": "好战",
+      "preference": "准备充分便快速扩张、延续进攻",
+      "focus": "advance"
+    },
+    "293": {
+      "name": "孙权",
+      "primary": "守成",
+      "secondary": "机会",
+      "preference": "保护核心领地、外交牵制、寻找局部胜机",
+      "focus": "fortify"
+    },
+    "86": {
+      "name": "袁绍",
+      "primary": "进取",
+      "secondary": "守成",
+      "preference": "集结优势兵力、稳步扩大领土",
+      "focus": "planning"
+    },
+    "87": {
+      "name": "袁术",
+      "primary": "进取",
+      "secondary": "好战",
+      "preference": "争夺城池与资源、承受较高进攻风险",
+      "focus": "resources"
+    },
+    "15": {
+      "name": "董卓",
+      "primary": "好战",
+      "secondary": "守成",
+      "preference": "主力压制邻敌、重兵保护核心城",
+      "focus": "fortify"
+    },
+    "24": {
+      "name": "公孙瓒",
+      "primary": "好战",
+      "secondary": "进取",
+      "preference": "集中强将、主动争取正面突破",
+      "focus": "decisive"
+    },
+    "55": {
+      "name": "马腾",
+      "primary": "好战",
+      "secondary": "守成",
+      "preference": "保卫边境、支援前线、优势时出击",
+      "focus": "frontier"
+    },
+    "50": {
+      "name": "刘焉",
+      "primary": "守成",
+      "secondary": "谋略",
+      "preference": "巩固连片领土、用外交减少外部压力",
+      "focus": "region"
+    },
+    "261": {
+      "name": "刘璋",
+      "primary": "守成",
+      "secondary": "重才",
+      "preference": "储备兵粮、稳固城防、补充人才",
+      "focus": "planning"
+    },
+    "47": {
+      "name": "刘表",
+      "primary": "守成",
+      "secondary": "重才",
+      "preference": "经营领地、吸纳人才、减少同时交战",
+      "focus": "alliance"
+    },
+    "67": {
+      "name": "陶谦",
+      "primary": "守成",
+      "secondary": "重才",
+      "preference": "开发招募、保持友好关系、避免高代价战争",
+      "focus": "alliance"
+    },
+    "96": {
+      "name": "张鲁",
+      "primary": "守成",
+      "secondary": "重才",
+      "preference": "发展本地、补充人手、稳固自身区域",
+      "focus": "region"
+    },
+    "61": {
+      "name": "士燮",
+      "primary": "守成",
+      "secondary": "机会",
+      "preference": "维持区域稳定、有明确收益才扩张",
+      "focus": "region"
+    },
+    "51": {
+      "name": "刘繇",
+      "primary": "守成",
+      "secondary": "机会",
+      "preference": "保护连片领地、寻找弱邻有限扩张",
+      "focus": "region"
+    },
+    "40": {
+      "name": "孔融",
+      "primary": "重才",
+      "secondary": "守成",
+      "preference": "投资人才与外交、保存骨干将领",
+      "focus": "talent"
+    },
+    "151": {
+      "name": "韩玄",
+      "primary": "守成",
+      "secondary": "好战",
+      "preference": "集中强将守前线、争取局部反击",
+      "focus": "frontier"
+    },
+    "432": {
+      "name": "孟获",
+      "primary": "好战",
+      "secondary": "守成",
+      "preference": "重视本土防守、利用有利局势反击",
+      "focus": "frontier"
+    },
+    "245": {
+      "name": "张绣",
+      "primary": "机会",
+      "secondary": "守成",
+      "preference": "外交避开强敌、寻找局部胜机、及时止损",
+      "focus": "opportunity"
+    },
+    "21": {
+      "name": "公孙度",
+      "primary": "守成",
+      "secondary": "进取",
+      "preference": "先巩固区域、再逐步扩张周边",
+      "focus": "region"
+    },
+    "264": {
+      "name": "公孙康",
+      "primary": "机会",
+      "secondary": "守成",
+      "preference": "关注周边消长、争取敌方薄弱据点",
+      "focus": "opportunity"
+    },
+    "153": {
+      "name": "金旋",
+      "primary": "守成",
+      "secondary": "进取",
+      "preference": "保城备粮、优势明确时争取邻近土地",
+      "focus": "planning"
+    },
+    "158": {
+      "name": "刘度",
+      "primary": "守成",
+      "secondary": "重才",
+      "preference": "优先发展补员、低风险改善局势",
+      "focus": "talent"
+    },
+    "166": {
+      "name": "赵范",
+      "primary": "守成",
+      "secondary": "机会",
+      "preference": "稳固关系与领地、根据周边局势行动",
+      "focus": "alliance"
+    },
+    "318": {
+      "name": "司马懿",
+      "primary": "谋略",
+      "secondary": "守成",
+      "preference": "保存实力、等待失误、准备后集中反击",
+      "focus": "planning"
+    },
+    "49": {
+      "name": "刘协",
+      "primary": "重才",
+      "secondary": "守成",
+      "preference": "招贤、维持盟友与核心城、积蓄实力",
+      "focus": "talent"
+    },
+    "255": {
+      "name": "张角",
+      "primary": "进取",
+      "secondary": "重才",
+      "preference": "积极招募集结、扩大势力范围",
+      "focus": "advance"
+    },
+    "53": {
+      "name": "吕布",
+      "primary": "好战",
+      "secondary": "机会",
+      "preference": "强将决战、把握眼前胜机",
+      "focus": "decisive"
+    },
+    "344": {
+      "name": "曹丕",
+      "primary": "守成",
+      "secondary": "谋略",
+      "preference": "储备兵粮、巩固领土、稳妥推进",
+      "focus": "planning"
+    },
+    "450": {
+      "name": "刘禅",
+      "primary": "守成",
+      "secondary": "重才",
+      "preference": "维持阵容防线、重视人才与支援",
+      "focus": "talent"
+    },
+    "273": {
+      "name": "马超",
+      "primary": "好战",
+      "secondary": "进取",
+      "preference": "集中强将、积极寻找正面突破",
+      "focus": "decisive"
+    },
+    "455": {
+      "name": "司马师",
+      "primary": "谋略",
+      "secondary": "守成",
+      "preference": "稳定内部、控制风险、削弱外敌",
+      "focus": "planning"
+    },
+    "461": {
+      "name": "司马昭",
+      "primary": "谋略",
+      "secondary": "进取",
+      "preference": "持续筹备、将优势转化为扩张",
+      "focus": "connect"
+    },
+    "431": {
+      "name": "公孙渊",
+      "primary": "机会",
+      "secondary": "进取",
+      "preference": "寻找周边扩张机会、争取有利据点",
+      "focus": "opportunity"
+    },
+    "364": {
+      "name": "诸葛亮",
+      "primary": "谋略",
+      "secondary": "守成",
+      "preference": "备粮调度、稳固战线、先削弱后推进",
+      "focus": "planning"
+    },
+    "25": {
+      "name": "关羽",
+      "primary": "好战",
+      "secondary": "进取",
+      "preference": "集中主力、争夺要地、主动压迫对手",
+      "focus": "decisive"
+    },
+    "94": {
+      "name": "张飞",
+      "primary": "好战",
+      "secondary": "进取",
+      "preference": "集结强将、积极寻找突破",
+      "focus": "decisive"
+    },
+    "38": {
+      "name": "贾诩",
+      "primary": "谋略",
+      "secondary": "机会",
+      "preference": "权衡风险、削弱对手、抓住局部胜机",
+      "focus": "opportunity"
+    },
+    "208": {
+      "name": "周瑜",
+      "primary": "谋略",
+      "secondary": "进取",
+      "preference": "筹备后集中进攻、扩大关键优势",
+      "focus": "connect"
+    },
+    "146": {
+      "name": "荀彧",
+      "primary": "重才",
+      "secondary": "守成",
+      "preference": "招贤备粮、稳固核心与支援",
+      "focus": "talent"
+    },
+    "191": {
+      "name": "郭嘉",
+      "primary": "谋略",
+      "secondary": "机会",
+      "preference": "判断薄弱环节、集中资源争取战机",
+      "focus": "opportunity"
+    },
+    "337": {
+      "name": "陆逊",
+      "primary": "谋略",
+      "secondary": "守成",
+      "preference": "保存实力、准备反击、稳固战线",
+      "focus": "planning"
+    },
+    "435": {
+      "name": "姜维",
+      "primary": "进取",
+      "secondary": "谋略",
+      "preference": "持续筹备、谋求扩张与战线推进",
+      "focus": "advance"
+    },
+    "398": {
+      "name": "邓艾",
+      "primary": "机会",
+      "secondary": "进取",
+      "preference": "寻找薄弱据点、连接进攻路线",
+      "focus": "connect"
+    },
+    "487": {
+      "name": "钟会",
+      "primary": "谋略",
+      "secondary": "进取",
+      "preference": "积累优势、集中兵力推进",
+      "focus": "planning"
+    },
+    "207": {
+      "name": "张辽",
+      "primary": "好战",
+      "secondary": "守成",
+      "preference": "集中强将守边、寻找反击机会",
+      "focus": "frontier"
+    },
+    "227": {
+      "name": "赵云",
+      "primary": "守成",
+      "secondary": "好战",
+      "preference": "保存骨干、保卫关键据点并反击",
+      "focus": "fortify"
+    },
+    "218": {
+      "name": "黄忠",
+      "primary": "好战",
+      "secondary": "守成",
+      "preference": "稳固前线、集中优势争夺要地",
+      "focus": "frontier"
+    },
+    "251": {
+      "name": "魏延",
+      "primary": "进取",
+      "secondary": "机会",
+      "preference": "争取局部突破、积极扩大战果",
+      "focus": "advance"
+    },
+    "34": {
+      "name": "黄盖",
+      "primary": "好战",
+      "secondary": "谋略",
+      "preference": "筹备牵制、集中兵力争取关键战果",
+      "focus": "decisive"
+    },
+    "247": {
+      "name": "鲁肃",
+      "primary": "守成",
+      "secondary": "谋略",
+      "preference": "保持盟友、稳定边境、筹备长期发展",
+      "focus": "alliance"
+    },
+    "346": {
+      "name": "徐庶",
+      "primary": "谋略",
+      "secondary": "守成",
+      "preference": "稳妥调度、谨慎选择目标",
+      "focus": "planning"
+    },
+    "267": {
+      "name": "刘琦",
+      "primary": "守成",
+      "secondary": "重才",
+      "preference": "保持友好关系、补充人才与防线",
+      "focus": "talent"
+    },
+    "350": {
+      "name": "刘琮",
+      "primary": "守成",
+      "secondary": "机会",
+      "preference": "保存实力、避免强敌、寻求局部机会",
+      "focus": "alliance"
+    },
+    "30": {
+      "name": "韩遂",
+      "primary": "机会",
+      "secondary": "守成",
+      "preference": "关注周边局势、争取局部优势",
+      "focus": "opportunity"
+    },
+    "98": {
+      "name": "张任",
+      "primary": "守成",
+      "secondary": "好战",
+      "preference": "集中前线守备、保卫关键据点",
+      "focus": "frontier"
+    },
+    "101": {
+      "name": "张卫",
+      "primary": "守成",
+      "secondary": "好战",
+      "preference": "保卫核心领地、补充前线守军",
+      "focus": "fortify"
+    },
+    "262": {
+      "name": "士徽",
+      "primary": "守成",
+      "secondary": "进取",
+      "preference": "稳固本地、逐步争取周边据点",
+      "focus": "region"
+    }
+  }
+}

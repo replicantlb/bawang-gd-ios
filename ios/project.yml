@@ -1,0 +1,101 @@
+name: BawangIOS
+options:
+  deploymentTarget:
+    iOS: "27.0"
+targets:
+  BawangIOS:
+    type: application
+    platform: iOS
+    supportedDestinations: [iOS]
+    sources:
+      - path: EngineEntry.cpp
+      - path: TouchCancellation.mm
+      - path: KeyboardAccessory.mm
+      - path: override.cfg
+        buildPhase: resources
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDevelopmentRegion: zh_CN
+        CFBundleDisplayName: 霸王的大陆GD 2.560
+        CFBundleShortVersionString: "2.560"
+        CFBundleVersion: "2575"
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: SceneDelegate
+        UILaunchScreen: {}
+        UIRequiresFullScreen: true
+        UIStatusBarHidden: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: local.bawang.gd2560.ios
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTED_PLATFORMS: iphoneos
+        CODE_SIGN_STYLE: Automatic
+        BAWANG_GAME_PACK: "$(SRCROOT)/../local-data/Bawang.pck"
+    configFiles:
+      Debug: Engine.xcconfig
+      Release: Engine.xcconfig
+    postBuildScripts:
+      - name: Prepare iOS Game Pack
+        inputFiles:
+          - "$(BAWANG_GAME_PACK)"
+          - "$(SRCROOT)/prepare_game_pack.py"
+          - "$(SRCROOT)/DirectionPad.gd"
+          - "$(SRCROOT)/OfficerPicker.gd"
+          - "$(SRCROOT)/CheatActor.gd"
+          - "$(SRCROOT)/CheatSkillPicker.gd"
+          - "$(SRCROOT)/EditedSkills.gd"
+          - "$(SRCROOT)/SkillDefaults.gd"
+          - "$(SRCROOT)/DataManager.gd"
+          - "$(SRCROOT)/Global.gd"
+          - "$(SRCROOT)/SceneManager.gd"
+          - "$(SRCROOT)/TrialSession.gd"
+          - "$(SRCROOT)/TrialArena.gd"
+          - "$(SRCROOT)/PrisonRoster.gd"
+          - "$(SRCROOT)/PrisonViewState.gd"
+          - "$(SRCROOT)/KeyboardManager.gd"
+          - "$(SRCROOT)/PersonalityAIPatches.gd"
+          - "$(SRCROOT)/RulerPersonalities.gd"
+          - "$(SRCROOT)/RulerPersonalities.json"
+          - "$(SRCROOT)/RulerPersonalityPanel.gd"
+          - "$(SRCROOT)/SoloAttack.gd"
+          - "$(SRCROOT)/SoloCrazyAttack.gd"
+          - "$(SRCROOT)/FormationMenu.gd"
+          - "$(SRCROOT)/EquipmentSkillInspector.gd"
+          - "$(SRCROOT)/PickerPanel.gd"
+          - "$(SRCROOT)/SkillPicker.gd"
+          - "$(SRCROOT)/SkillCatalog.gd"
+          - "$(SRCROOT)/OthersMenu.gd"
+          - "$(SRCROOT)/StorageService.gd"
+          - "$(SRCROOT)/StorageManager.gd"
+          - "$(SRCROOT)/BattleHints.gd"
+          - "$(SRCROOT)/CheatPanel.gd"
+          - "$(SRCROOT)/MobileLayout.gd"
+          - "$(SRCROOT)/SkillRatings.gd"
+          - "$(SRCROOT)/RatingBadge.gd"
+          - "$(SRCROOT)/SkillRatings.json"
+        outputFiles:
+          - "$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/$(EXECUTABLE_NAME).pck"
+        script: |
+          set -eu
+          if [ ! -r "$SCRIPT_INPUT_FILE_0" ]; then
+            echo "error: 找不到 2.560 游戏包，请先按 README 将原版数据写入 local-data/Bawang.pck。"
+            exit 1
+          fi
+          /usr/bin/python3 "$SCRIPT_INPUT_FILE_1" "$SCRIPT_INPUT_FILE_0" "$SCRIPT_OUTPUT_FILE_0"
+schemes:
+  BawangIOS:
+    build:
+      targets:
+        BawangIOS: all
+    run:
+      config: Debug

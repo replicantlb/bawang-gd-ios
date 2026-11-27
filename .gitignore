@@ -1,0 +1,13 @@
+/local-data/
+/dist/
+/ios/Generated/
+com.apple.DeveloperTools/
+xcuserdata/
+__pycache__/
+.DS_Store
+*.pck
+*.zip
+*.sav
+*.ipa
+*.p12
+*.mobileprovision

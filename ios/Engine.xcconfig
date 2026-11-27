@@ -1,0 +1,2 @@
+// Installed from the Godot 3.6.3 export template by build.py.
+#include? "Generated/Link.xcconfig"

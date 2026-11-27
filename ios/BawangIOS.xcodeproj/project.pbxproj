@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FA398BCC070FC909B9A6581 /* EngineEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 689495CF5D33C70E74275AE6 /* EngineEntry.cpp */; };
+		71BE322C6590B309CC935F50 /* override.cfg in Resources */ = {isa = PBXBuildFile; fileRef = DAF17C58ABD62561EC8E4CB3 /* override.cfg */; };
+		B4452C86A0902FF369EE5C44 /* TouchCancellation.mm in Sources */ = {isa = PBXBuildFile; fileRef = D23CBAAE5B02CD96669CA76F /* TouchCancellation.mm */; };
+		FB31CED6A72834B021B9223C /* KeyboardAccessory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38EF1308E6A6DE481834B68F /* KeyboardAccessory.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38EF1308E6A6DE481834B68F /* KeyboardAccessory.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KeyboardAccessory.mm; sourceTree = "<group>"; };
+		689495CF5D33C70E74275AE6 /* EngineEntry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EngineEntry.cpp; sourceTree = "<group>"; };
+		D23CBAAE5B02CD96669CA76F /* TouchCancellation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TouchCancellation.mm; sourceTree = "<group>"; };
+		DAF17C58ABD62561EC8E4CB3 /* override.cfg */ = {isa = PBXFileReference; path = override.cfg; sourceTree = "<group>"; };
+		E046067A606C5C12D1B98020 /* Engine.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Engine.xcconfig; sourceTree = "<group>"; };
+		F8F1928F3BEFAF27FA4AFD50 /* BawangIOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BawangIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		25F717563EB84CA049B82835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1928F3BEFAF27FA4AFD50 /* BawangIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7279B8382A9BE0C432BEC32F /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E046067A606C5C12D1B98020 /* Engine.xcconfig */,
+			);
+			name = ios;
+			path = .;
+			sourceTree = "<group>";
+		};
+		DEF82DDBF907F99A1C675D59 = {
+			isa = PBXGroup;
+			children = (
+				689495CF5D33C70E74275AE6 /* EngineEntry.cpp */,
+				38EF1308E6A6DE481834B68F /* KeyboardAccessory.mm */,
+				DAF17C58ABD62561EC8E4CB3 /* override.cfg */,
+				D23CBAAE5B02CD96669CA76F /* TouchCancellation.mm */,
+				7279B8382A9BE0C432BEC32F /* ios */,
+				25F717563EB84CA049B82835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A88857A3910626B8243203F /* BawangIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DDE85DD9D4AA6DED016D4D /* Build configuration list for PBXNativeTarget "BawangIOS" */;
+			buildPhases = (
+				16CCFFB5C11BFC34A1D300CC /* Sources */,
+				1AA6A4CB56D73875D5008812 /* Resources */,
+				834D074DDCCA8EC8AF6DC143 /* Prepare iOS Game Pack */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BawangIOS;
+			packageProductDependencies = (
+			);
+			productName = BawangIOS;
+			productReference = F8F1928F3BEFAF27FA4AFD50 /* BawangIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCD9A66244A4EA9F6B119C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5A88857A3910626B8243203F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8182AF0C6B75E9C59AD03790 /* Build configuration list for PBXProject "BawangIOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DEF82DDBF907F99A1C675D59;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 25F717563EB84CA049B82835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A88857A3910626B8243203F /* BawangIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA6A4CB56D73875D5008812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BE322C6590B309CC935F50 /* override.cfg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		834D074DDCCA8EC8AF6DC143 /* Prepare iOS Game Pack */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BAWANG_GAME_PACK)",
+				"$(SRCROOT)/prepare_game_pack.py",
+				"$(SRCROOT)/DirectionPad.gd",
+				"$(SRCROOT)/OfficerPicker.gd",
+				"$(SRCROOT)/CheatActor.gd",
+				"$(SRCROOT)/CheatSkillPicker.gd",
+				"$(SRCROOT)/EditedSkills.gd",
+				"$(SRCROOT)/SkillDefaults.gd",
+				"$(SRCROOT)/DataManager.gd",
+				"$(SRCROOT)/Global.gd",
+				"$(SRCROOT)/SceneManager.gd",
+				"$(SRCROOT)/TrialSession.gd",
+				"$(SRCROOT)/TrialArena.gd",
+				"$(SRCROOT)/PrisonRoster.gd",
+				"$(SRCROOT)/PrisonViewState.gd",
+				"$(SRCROOT)/KeyboardManager.gd",
+				"$(SRCROOT)/PersonalityAIPatches.gd",
+				"$(SRCROOT)/RulerPersonalities.gd",
+				"$(SRCROOT)/RulerPersonalities.json",
+				"$(SRCROOT)/RulerPersonalityPanel.gd",
+				"$(SRCROOT)/SoloAttack.gd",
+				"$(SRCROOT)/SoloCrazyAttack.gd",
+				"$(SRCROOT)/FormationMenu.gd",
+				"$(SRCROOT)/EquipmentSkillInspector.gd",
+				"$(SRCROOT)/PickerPanel.gd",
+				"$(SRCROOT)/SkillPicker.gd",
+				"$(SRCROOT)/SkillCatalog.gd",
+				"$(SRCROOT)/OthersMenu.gd",
+				"$(SRCROOT)/StorageService.gd",
+				"$(SRCROOT)/StorageManager.gd",
+				"$(SRCROOT)/BattleHints.gd",
+				"$(SRCROOT)/CheatPanel.gd",
+				"$(SRCROOT)/MobileLayout.gd",
+				"$(SRCROOT)/SkillRatings.gd",
+				"$(SRCROOT)/RatingBadge.gd",
+				"$(SRCROOT)/SkillRatings.json",
+			);
+			name = "Prepare iOS Game Pack";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/$(EXECUTABLE_NAME).pck",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\nif [ ! -r \"$SCRIPT_INPUT_FILE_0\" ]; then\n  echo \"error: 找不到 2.560 游戏包，请先按 README 将原版数据写入 local-data/Bawang.pck。\"\n  exit 1\nfi\n/usr/bin/python3 \"$SCRIPT_INPUT_FILE_1\" \"$SCRIPT_INPUT_FILE_0\" \"$SCRIPT_OUTPUT_FILE_0\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CCFFB5C11BFC34A1D300CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA398BCC070FC909B9A6581 /* EngineEntry.cpp in Sources */,
+				FB31CED6A72834B021B9223C /* KeyboardAccessory.mm in Sources */,
+				B4452C86A0902FF369EE5C44 /* TouchCancellation.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B571735F1448419F33EFD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3FE6189BCA9C75FBE22E29F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E046067A606C5C12D1B98020 /* Engine.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BAWANG_GAME_PACK = "$(SRCROOT)/../local-data/Bawang.pck";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.bawang.gd2560.ios;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DEF993D94B34551EDB241C88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED766E4FE0A7D6274880222F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E046067A606C5C12D1B98020 /* Engine.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BAWANG_GAME_PACK = "$(SRCROOT)/../local-data/Bawang.pck";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.bawang.gd2560.ios;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8182AF0C6B75E9C59AD03790 /* Build configuration list for PBXProject "BawangIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF993D94B34551EDB241C88 /* Debug */,
+				2B571735F1448419F33EFD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1DDE85DD9D4AA6DED016D4D /* Build configuration list for PBXNativeTarget "BawangIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE6189BCA9C75FBE22E29F0 /* Debug */,
+				ED766E4FE0A7D6274880222F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCD9A66244A4EA9F6B119C1 /* Project object */;
+}
